@@ -6,6 +6,22 @@ import sys
 import os
 
 
+@pytest.fixture(autouse=True)
+def _gmsh_session():
+    # Reset any stale gmsh runtime from a previous interrupted run.
+    if gmsh.isInitialized():
+        gmsh.finalize()
+
+    gmsh.initialize()
+    gmsh.clear()
+    gmsh.model.add("panel")
+
+    yield
+
+    if gmsh.isInitialized():
+        gmsh.finalize()
+
+
 @pytest.mark.unit
 def test_mesh_gen():
     """
@@ -343,9 +359,6 @@ def test_mesh_gen():
     surface_extended = 500  # a surface is created to cut the frame, the surface is created bigger than panel. in mm
 
     ndim = 3
-
-    gmsh.initialize()
-    gmsh.model.add("panel")
 
     # Turn off printed output to the terminal
     # gmsh.option.setNumber("General.Terminal", 0)
@@ -1376,7 +1389,5 @@ def test_mesh_gen():
         gmsh.write(input_name + "/PV_mesh.bdf")
     else:
         "file Format not recognised"
-
-    gmsh.finalize()
 
     print("Mesh generated")
