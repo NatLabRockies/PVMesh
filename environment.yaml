@@ -1,31 +1,30 @@
 name: pvmesh
 channels:
   - conda-forge  
-  - defaults
+  - nodefaults
 dependencies:
-  # Dependencies should be kept as loosely pinned to version numbers as possible
-  - alive-progress
-  - black
-  - jsonschema
-  - jupyter
-  - matplotlib
-  - numba
-  - pandas
-  - pytest
-  - python-gmsh
-  - pyyaml
-  - scipy
-  - snakeviz
-  - sphinx
-  - tqdm
-  - pip
+  # Pinned to versions verified in the working PVade environment.
+  - python=3.10.14
+  - alive-progress=3.3.0
+  - black=26.5.1
+  - jsonschema=4.26.0
+  - jupyter=1.1.1
+  - matplotlib=3.10.1
+  - numba=0.59.1
+  - pandas=2.3.3
+  - pytest=9.1.0
+  - python-gmsh=4.12.2
+  - pyyaml=6.0.3
+  - scipy=1.15.2
+  - setuptools=80.9.0
+  - snakeviz=2.2.2
+  - sphinx=8.1.3
+  - tqdm=4.68.3
+  - pip=26.1.2
+  - mpich >=4.0,<5.0
   - pyqt
   - pyqt5-sip 
-  - tk
+  - tk=8.6.13
   - pip:
-    - sphinx-rtd-theme
-    - sphinxcontrib.datatemplates
-    #  - pip:
-    #    - sphinx-rtd-theme
-    #    - sphinxcontrib.datatemplates
-    #    - -e . # Installs the pvade package
+    - sphinx-rtd-theme==3.1.0
+    - sphinxcontrib.datatemplates==0.11.0
