@@ -1,7 +1,7 @@
 Input Reference
 ===============
 
-PVMesh reads key-value pairs from text input files (for example ``original.txt``
+PVmesh reads key-value pairs from text input files (for example ``original.txt``
 or generated ``input_*.txt`` files).
 
 Units
@@ -44,11 +44,9 @@ Meshing and mounting variables
 * ``mesh_size_out_cell``
 * ``mounting_area_shape`` (for example ``square`` or ``circle``)
 * ``mounting_area_size``
-* ``mounting_location``: normalized location parameter used to place mounting
-   zones along panel edges
+* ``mounting_location``: normalized location parameter used to place mounting zones along panel edges
 
-Typical defaults used in manuscript examples are ``mesh_size_in_cell = 12`` and
-``mesh_size_out_cell = 3``.
+Typical defaults used are ``mesh_size_in_cell = 12`` and ``mesh_size_out_cell = 3``.
 
 Output variable
 ---------------

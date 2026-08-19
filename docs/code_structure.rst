@@ -20,8 +20,13 @@ At a high level, ``mesh_generator.py``:
 4. Tags surfaces/volumes with domain markers.
 5. Exports mesh files in the selected format.
 
-This follows the same five-stage workflow described in the JOSS manuscript
-software-design section.
+Geometry is assembled from layered panel components and frame-related features,
+then finalized with seal-region construction to close the frame-to-laminate
+gap before meshing.
+
+The meshing pipeline assigns 1D/2D/3D entities and applies adaptive refinement
+to reduce element density in low-gradient regions.
+
 
 GUI workflow
 ------------
@@ -33,6 +38,9 @@ The GUI in ``guipytk.py``:
 3. Expands comma-separated values into parameter combinations.
 4. Writes case directories (for example ``input1``, ``input2``).
 5. Executes ``mesh_generator.py`` case by case.
+
+For each case, the directory includes generated input text, geometry
+intermediates (including ``.brep``), and solver-ready mesh output.
 
 Testing
 -------

@@ -13,6 +13,6 @@ The following references are included in the LaTeX source bibliography context:
 * ANSYS 2024R1 User Manual. ANSYS, Inc. (2023).
 * Deceglie, M., Bosco, N., Silverman, T., and Springer, M. (2023). WhatsCracking [SWR-23-03]. National Renewable Energy Laboratory.
 * Geuzaine, C., and Remacle, J.-F. (2009). Gmsh: A 3-D finite element mesh generator with built-in pre- and post-processing facilities. International Journal for Numerical Methods in Engineering, 79(11), 1309-1331.
-* PVMesh Repository (2026). National Laboratory of the Rockies. https://github.com/NatLabRockies/PVMesh.
+* PVmesh Repository (2026). National Laboratory of the Rockies. https://github.com/NatLabRockies/PVmesh.
 * Figueredo, A. J., and Wolf, P. S. A. (2009). Assortative pairing and life history strategy - a cross-cultural study. Human Nature, 20, 317-330.
 * Hao, Z., AghaKouchak, A., Nakhjiri, N., and Farahmand, A. (2014). Global integrated drought monitoring and prediction system (GIDMaPS) data sets.

@@ -4,7 +4,7 @@ Installation
 Prerequisites
 -------------
 
-PVMesh relies on:
+PVmesh relies on:
 
 * Python
 * Gmsh Python bindings
