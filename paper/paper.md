@@ -15,10 +15,12 @@ authors:
     affiliation: 1
   - name: Xin He
     orcid: 0000-0002-3457-2547
-    affiliation: 1 
+    affiliation: 1 ,2
 affiliations:
  - name: National Laboratory of the Rockies, United States
    index: 1
+ - name: Corresponding author
+   index: 2
 date: 17 July 2026
 bibliography: paper.bib
 
