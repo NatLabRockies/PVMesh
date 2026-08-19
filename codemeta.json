@@ -1,0 +1,37 @@
+{
+  "@context": "https://raw.githubusercontent.com/codemeta/codemeta/0.1-alpha/codemeta.jsonld",
+  "@type": "Code",
+  "author": [
+    {
+      "@id": "0009-0006-0935-0690",
+      "@type": "Person",
+      "email": "walid.arsalane@nlr.gov",
+      "name": "walid arsalane",
+      "affiliation": "National Laboratory of the Rockies"
+    },
+    {
+      "@id": "0000-0002-6120-6016",
+      "@type": "Person",
+      "email": "@nlr.gov",
+      "name": "Munjal Purnkant Shah",
+      "affiliation": "National Laboratory of the Rockies"
+    },
+    {
+      "@id": "0000-0002-3457-2547",
+      "@type": "Person",
+      "email": "xin.he@nlr.gov",
+      "name": "Xin He",
+      "affiliation": "National Laboratory of the Rockies"
+    }
+  ],
+  "identifier": "",
+  "codeRepository": "https://github.com/NatLabRockies/PVMesh",
+  "datePublished": "2026-08-19",
+  "dateModified": "2026-08-19",
+  "dateCreated": "2026-08-19",
+  "description": "PVmesh is an open-source Python tool for generating high-fidelity, adaptive finite-element meshes for photovoltaic modules. It supports multilayer panel geometries, frame details, and mounting zones that are often difficult to mesh robustly with generic workflows.",
+  "keywords": "PV, Mesh, GMSH",
+  "license": "BSD",
+  "title": "PVmesh",
+  "version": "v1.0.0"
+}
