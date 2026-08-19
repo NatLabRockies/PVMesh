@@ -9,15 +9,12 @@ tags:
 authors:
   - name: Walid Arsalane
     orcid: 0009-0006-0935-0690
-    equal-contrib: true
     affiliation: 1 
   - name: Munjal Purnkant Shah
     orcid: 0000-0002-6120-6016
-    equal-contrib: true
     affiliation: 1
   - name: Xin He
     orcid: 0000-0002-3457-2547
-    equal-contrib: true
     affiliation: 1 
 affiliations:
  - name: National Laboratory of the Rockies, United States
