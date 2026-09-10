@@ -40,3 +40,17 @@ The environment can be activated using the command:
 ```
 mamba activate pvmesh
 ```
+## Citation
+
+To cite PVmesh, please use the "Cite this repository" feature available on the right-hand side of this repository page or copy the BibTeX reference below:
+
+```bash
+@software{doecode_191518,
+    author = {He, Xin and Arsalane, Walid},
+    doi = {10.11578/dc.20260901.6},
+    month = feb,
+    title = {{PVade (PV Aerodynamic Design Engineering) [SWR-23-49]}},
+    url = {https://github.com/NatLabRockies/PVMesh/},
+    year = {2025}
+}
+```
