@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "PVmesh [SWR-24-123]"
+authors:
+  - family-names: He
+    given-names: Xin
+  - family-names: Arsalane
+    given-names: Walid
+doi: 10.11578/dc.20260901.6
+url: "https://doi.org/10.11578/dc.20260901.6"
+date-released: 2025-02-14
+abstract: >-
+  PVmesh is an open-source Python tool for generating high-fidelity, adaptive
+  finite-element meshes for photovoltaic modules. It supports multilayer panel
+  geometries, frame details, and mounting zones that are often difficult to
+  mesh robustly with generic workflows. Built on Gmsh, PVmesh automates geometry
+  construction, partitioning, domain/boundary tagging, and export for downstream
+  finite-element solvers.
