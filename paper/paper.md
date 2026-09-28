@@ -5,7 +5,6 @@ tags:
   - PV
   - Mesh
   - GMSH
-  - PVMesh
 authors:
   - name: Walid Arsalane
     orcid: 0009-0006-0935-0690
