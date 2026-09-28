@@ -1,6 +1,7 @@
 name: Draft PDF
-on: [push]
-  branches: [ JOSS_paper ]
+on:
+  push:
+    branches: [ JOSS_paper ]
 
 jobs:
   paper:
